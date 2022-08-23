@@ -7,6 +7,9 @@ export default function Home() {
     <div>
       <Head>
 	      <title>Serving The People - The Social Platform of the Future, Today</title>	<meta name="description" content="The Social Platform of the Future, Today" />
+        
+        <meta charset="UTF-8"></meta>
+        <meta name="viewport" content="width=990"></meta>
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Serving The People" />
