@@ -62,7 +62,7 @@ a {
 
     html{
          background-color:#fced53;
-        background-image:url('suntile-single.jpg');
+        background-image:url('/suntile-single.jpg');
         background-repeat:repeat;
         position:relative;
     }

@@ -39,7 +39,7 @@ export default function Home() {
           <div className="container">
             <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
               <a href="" className="d-flex align-items-center mb-2 mb-lg-0  text-decoration-none">
-                <Image className="bi me-2" width={36} height={30} role="img" src="http://home.stp.world/stp-home-logo.png" alt="Serving The People - Smiling Sun"/>
+                <Image className="bi me-2" width={36} height={30} role="img" src="/stp-home-logo.png" alt="Serving The People - Smiling Sun"/>
               </a>
               <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 fw-bold">
                 <li><a href="https://docs.stp.world/" className="nav-link px-2 ">Docs</a></li>
@@ -95,7 +95,7 @@ export default function Home() {
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
           <li className="ms-3"><a href="https://opensea.io/collection/seeds-luciensmith">
           <i className="bi bi-opensea">
-            <Image style="vertical-align:-.18em;" width={18} height={18} src="opensea.svg" alt="opensea"/>
+            <Image style="vertical-align:-.18em;" width={18} height={18} src="/opensea.svg" alt="opensea"/>
             </i></a></li>
           <li className="ms-3"><a href="https://www.instagram.com/servingthepeople/"><i className="bi bi-instagram"></i></a></li>
           <li className="ms-3"><a href="https://twitter.com/STPcommunity"><i className="bi bi-twitter"></i></a></li>
