@@ -9,24 +9,24 @@ export default function Home() {
 	      <title>Serving The People - The Social Platform of the Future, Today</title>	<meta name="description" content="The Social Platform of the Future, Today" />
         
         <meta charset="UTF-8"></meta>
-        <meta name="viewport" content="width=990"></meta>
+        <meta name="viewport" content="width=1080"></meta>
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Serving The People" />
         <meta property="og:description" content="The Social Platform of the Future, Today" />
         <meta property="og:url" content="https://stp.world/" />
         <meta property="og:site_name" content="Serving The People" />
-        <meta property="og:image" content="/stp-home-logo.png" />
+        <meta property="og:image" content="/stp-logo.png" />
         <meta property="og:image:width" content="600" />
         <meta property="og:image:height" content="592" />
         <meta property="og:image:type" content="image/jpeg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@STPcommunity" />
-        <meta name="msapplication-TileImage" content="/stp-home-logo.png" />
+        <meta name="msapplication-TileImage" content="/stp-logo.png" />
       
-        <link rel="icon" href="/stp-home-logo.png" sizes="32x32" />
-        <link rel="icon" href="/stp-home-logo.png" sizes="192x192" />
-        <link rel="apple-touch-icon" href="/stp-home-logo.png" />
+        <link rel="icon" href="/stp-logo.png" sizes="32x32" />
+        <link rel="icon" href="/stp-logo.png" sizes="192x192" />
+        <link rel="apple-touch-icon" href="/stp-logo.png" />
         <link rel="canonical" href="https://stp.world/" />
         <link href="https://rsms.me/inter/inter.css" rel="stylesheet"></link>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" ></link>
@@ -43,7 +43,7 @@ export default function Home() {
           <div className="container">
             <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
               <a href="" className="d-flex align-items-center mb-2 mb-lg-0  text-decoration-none">
-                <Image layout="raw" className="bi me-2" width={36} height={30} src="/stp-home-logo.png" alt="Serving The People - Smiling Sun"/>
+                <Image layout="raw" className="bi me-2" width={36} height={30} src="/stp-logo.png" alt="Serving The People - Smiling Sun"/>
               </a>
               <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 fw-bold">
                 <li><a href="https://docs.stp.world/" className="nav-link px-2 ">Docs</a></li>
