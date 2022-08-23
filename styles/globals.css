@@ -100,3 +100,50 @@ body {
     a{
       text-underline-offset: 3px;
     }
+
+
+
+    h1{
+      font-size: 65px;
+      font-weight: 700;
+      line-height: 65px;
+      letter-spacing: 0em;
+
+    }
+
+    h3{
+      
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 65px;
+      letter-spacing: 0.02em;
+      text-align: center;
+
+    }
+
+    .lead {
+      font-size: 19px;
+      font-weight: 500;
+      opacity: 64%;
+      letter-spacing: -0.01em;
+      line-height: 25px;
+    }
+
+
+    p:not(.lead){
+    
+      font-size: 16px;
+      font-weight: 400;
+      opacity: 64%;
+      line-height: 24px;
+      letter-spacing: -0.03em;
+    }
+
+    p:not(.lead) b{
+      
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: -0.03em;
+
+    }
