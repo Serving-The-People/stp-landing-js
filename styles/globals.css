@@ -5,11 +5,16 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     height: 100%!important;
-    flex-direction: column!important;
-    justify-content: space-between!important;
-    display: flex!important;
+   
 }
 
+
+#__next>div{
+  height: 100%!important;
+  flex-direction: column!important;
+  justify-content: space-between!important;
+  display: flex!important;
+}
 a {
   color: inherit;
   text-decoration: none;
