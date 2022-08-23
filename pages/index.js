@@ -4,7 +4,7 @@ import Script from 'next/script'
 
 export default function Home() {
   return (
-    <div classNameName={styles.container}>
+    <div>
       <Head>
 	      <title>Serving The People - The Social Platform of the Future, Today</title>	<meta name="description" content="The Social Platform of the Future, Today" />
         <meta property="og:locale" content="en_US" />
