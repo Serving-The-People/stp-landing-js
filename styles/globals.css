@@ -37,7 +37,7 @@ body {
 .btn-primary {
     --bs-btn-color: #fff;
     --bs-btn-bg: #58D838;
-    --bs-btn-border-color: #58D838;
+    --bs-btn-border-color: #43A62B;
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #43A62B;
     --bs-btn-hover-border-color: #43A62B;
@@ -56,7 +56,7 @@ body {
 .btn-secondary {
     --bs-btn-color: #fff;
     --bs-btn-bg: #7289D9;
-    --bs-btn-border-color: #7289D9;
+    --bs-btn-border-color: #5465A0;
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #5465A0;
     --bs-btn-hover-border-color: #5465A0;
