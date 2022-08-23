@@ -88,7 +88,7 @@ export default function Home() {
             </form>
           </div>
           <p>
-            <a classname="last" href="https://docs.stp.world/mint-a-seed">Learn More</a>
+            <a className="last" href="https://docs.stp.world/mint-a-seed">Learn More</a>
           </p>
         </div>
       </main>
