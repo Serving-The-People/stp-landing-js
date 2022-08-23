@@ -117,14 +117,14 @@ body {
       font-weight: 700;
       line-height: 65px;
       letter-spacing: 0.02em;
-      text-align: center;
+   
 
     }
 
     .lead {
       font-size: 19px;
       font-weight: 500;
-      opacity: 64%;
+      color:rgba(0, 0, 0, 0.64);
       letter-spacing: -0.01em;
       line-height: 25px;
     }
@@ -134,16 +134,22 @@ body {
     
       font-size: 16px;
       font-weight: 400;
-      opacity: 64%;
+      color:rgba(0, 0, 0, 0.64);
       line-height: 24px;
       letter-spacing: -0.03em;
     }
 
     p:not(.lead) b{
       
+      color:rgba(0, 0, 0, 0.64);
       font-size: 16px;
       font-weight: 600;
       line-height: 24px;
       letter-spacing: -0.03em;
 
+    }
+
+    a.last{
+      
+      color:rgba(0, 0, 0, 0.64);
     }

@@ -65,7 +65,7 @@ export default function Home() {
           <h1 className="display-3 fw-bold mt-5">Welcome to<br></br>
           Serving the People!</h1>
           <div className="col-lg-12 mx-auto">
-            <p className=" mb-5">Serving the People is a group of creatives and technologists<br></br>
+            <p className="lead mb-5">Serving the People is a group of creatives and technologists<br></br>
               building the future of creativity, collaboration,<br></br>
               and communication.</p>
           </div>
@@ -88,7 +88,7 @@ export default function Home() {
             </form>
           </div>
           <p>
-            <a href="https://docs.stp.world/mint-a-seed">Learn More</a>
+            <a class="last" href="https://docs.stp.world/mint-a-seed">Learn More</a>
           </p>
         </div>
       </main>
