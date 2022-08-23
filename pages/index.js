@@ -69,7 +69,7 @@ export default function Home() {
           <p className=" mb-4">Currently <b>1,686 creators</b><br></br>
           <b>2,055 Seeds</b> on <a href="https://opensea.io/collection/seeds-luciensmith">OpenSea</a></p>
 
-          <div className="mx-auto mb-4" style="max-width:420px;">
+          <div className="mx-auto mb-4 formholder">
             <form className="row row-cols-xs-auto g-3 align-items-center">
               <div className="col-6">
                 <label className="visually-hidden">Quantity</label>
@@ -95,7 +95,7 @@ export default function Home() {
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
           <li className="ms-3"><a href="https://opensea.io/collection/seeds-luciensmith">
           <i className="bi bi-opensea">
-            <Image style="vertical-align:-.18em;" width={18} height={18} src="/opensea.svg" alt="opensea"/>
+            <Image  width={18} height={18} src="/opensea.svg" alt="opensea"/>
             </i></a></li>
           <li className="ms-3"><a href="https://www.instagram.com/servingthepeople/"><i className="bi bi-instagram"></i></a></li>
           <li className="ms-3"><a href="https://twitter.com/STPcommunity"><i className="bi bi-twitter"></i></a></li>
