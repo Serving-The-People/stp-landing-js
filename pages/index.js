@@ -75,14 +75,14 @@ export default function Home() {
 
           <div className="mx-auto mb-4 formholder">
             <form className="row row-cols-xs-auto g-3 align-items-center">
-              <div className="col-6">
+              <div className="col-7">
                 <label className="visually-hidden">Quantity</label>
                 <div className="input-group">
                   <input type="number" className="form-control" id="inlineFormInputGroupUsername" placeholder="1 or More"
                   />
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-5">
                 <button type="submit" className="btn btn-primary btn-block w-100">Mint a Seed</button>
               </div>
             </form>
