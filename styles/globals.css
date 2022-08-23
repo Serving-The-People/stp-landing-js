@@ -95,3 +95,8 @@ body {
     .bi-opensea img{
       vertical-align:-.18em;
     }
+
+
+    a{
+      text-underline-offset: 3px;
+    }
