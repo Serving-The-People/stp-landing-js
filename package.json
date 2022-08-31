@@ -7,6 +7,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ethersproject/providers": "^5.7.0",
     "assert": "^2.0.0",
     "async_hooks": "^1.0.0",
     "crypto-browserify": "^3.12.0",
