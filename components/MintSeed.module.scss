@@ -1,0 +1,68 @@
+.inputWrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    label {
+        margin-right: 9px;
+    }
+    input {
+        margin-right: 9px;
+        width: unset;
+        display: flex;
+    }
+    button {
+        cursor: pointer;
+        &:disabled {
+            cursor: not-allowed;
+        }
+        margin-right: 9px;
+        @media (max-width: 768px) {
+            &.connectButton {
+                margin-top: 18px;
+                display: block;
+            }
+        }
+    }
+}
+.inputAndButtons {
+    display: flex;
+}
+
+.connectButtons {
+    display: inline;
+    @media (max-width: 768px) {
+        display: flex;
+    }
+}
+
+.address {
+    font-size: 10px;
+}
+
+.balanceRow {
+    margin-top: 9px;
+}
+
+.error {
+    color: red;
+    font-size: 10px;
+    margin-left: 9px;
+}
+.loading {
+    font-size: 10px;
+    margin-left: 9px;
+}
+.success {
+    font-size: 10px;
+    margin-left: 9px;
+    color: green;
+}
+
+.mintButtonWrapper {
+    display: inline-flex;
+    align-items: center;
+    @media (max-width: 568px) {
+        margin-top: 9px;
+        display: flex;
+    }
+}
