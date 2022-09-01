@@ -87,10 +87,8 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
         <header className="p-3">
           <div className="container">
             <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-              <a
-                href=""
-                className="d-flex align-items-center mb-2 mb-lg-0  text-decoration-none me-2"
-              >
+            <Link href="/">
+                <span className="d-flex align-items-center mb-2 mb-lg-0  text-decoration-none me-2">
                 <Image
                   className="bi"
                   width={36}
@@ -98,7 +96,8 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
                   src="/stp-logo.png"
                   alt="Serving The People - Smiling Sun"
                 />
-              </a>
+              </span>
+              </Link>
               <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 fw-bold">
                 <li>
                   <a href="https://docs.stp.world/" className="nav-link px-2 ">
