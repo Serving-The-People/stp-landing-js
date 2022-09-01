@@ -183,7 +183,7 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
         </main>
         <footer className="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 container">
          
-          <ul className="nav col-md-4 justify-content-center list-unstyled d-flex">
+          <ul className="nav col-md-12 justify-content-center list-unstyled d-flex">
             <li className="d-flex ms-3">
               <a
                 href="https://opensea.io/collection/seeds-luciensmith"
