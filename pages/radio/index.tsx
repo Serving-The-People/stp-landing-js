@@ -47,7 +47,7 @@ const Radio = () => {
           <div className="container">
             <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <Link href="/">
-                <span className="d-flex align-items-center mb-2 mb-lg-0  text-decoration-none me-2">
+                <a className="d-flex align-items-center mb-2 mb-lg-0  text-decoration-none me-2">
                 <Image
                   className="bi"
                   width={36}
@@ -55,7 +55,7 @@ const Radio = () => {
                   src="/stp-logo.png"
                   alt="Serving The People - Smiling Sun"
                 />
-              </span>
+              </a>
               </Link>
               <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 fw-bold">
                 <li>
@@ -70,7 +70,7 @@ const Radio = () => {
                 </li>
                 <li>
                   <Link href="/radio">
-                  <span className="nav-link px-2 ">Radio</span>
+                  <a className="nav-link px-2 ">Radio</a>
                   </Link>
                 </li>
                 <li>
