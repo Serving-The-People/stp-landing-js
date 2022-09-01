@@ -2,51 +2,10 @@ import { useEffect, useState, FC } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
-import { providers, Contract, utils, BigNumber } from "ethers";
-import SeedsABI from "../components/hooks/SeedsABI.json";
 
-import { MintSeedForm } from "../components/MintSeedForm";
-import { SEEDS_CONTRACT_ADDRESS } from "../components/hooks/useSeedsContract";
 
-import { GetServerSideProps } from "next";
-
-type PageProps = {
-  discordMemberCount: string;
-  seedsSupply: string;
-};
-
-export const getServerSideProps: GetServerSideProps<PageProps> = async (
-  ctx
-) => {
-  const res = await fetch(new URL("/api/discord", process.env.NODE_BASE_URL));
-  const json = await res.json();
-
-  const provider = new providers.JsonRpcProvider(
-    `https://eth-mainnet.alchemyapi.io/v2/${process.env.NODE_ALCHEMY_KEY}`
-  );
-  const seedsInterface = new utils.Interface(SeedsABI);
-  const SeedsContract = new Contract(
-    SEEDS_CONTRACT_ADDRESS,
-    seedsInterface,
-    provider
-  );
-
-  const seedsHolders: BigNumber = await SeedsContract.totalSupply();
-  return {
-    props: {
-      discordMemberCount: json.count,
-      seedsSupply: seedsHolders.toString(),
-    },
-  };
-};
-
-const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-  return (
+const Radio = () => {
+    return (
     <div>
       <Head>
         <title>
@@ -110,7 +69,7 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
                   </a>
                 </li>
                 <li>
-                  <a href="/radio" className="nav-link px-2 ">
+                  <a href="https://stp.world/radio" className="nav-link px-2 ">
                     Radio
                   </a>
                 </li>
@@ -144,41 +103,15 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
         <main className="container">
           <div className="text-center">
             <h1 className="display-3 fw-bold mt-5">
-              Welcome to<br></br>
-              Serving the People!
+            RADIO
             </h1>
             <div className="col-lg-12 mx-auto">
               <p className="lead mb-3">
-                Serving the People is a group of creatives and technologists
-                <br></br>
-                building the future of creativity, collaboration,<br></br>
-                and communication.
+               RADIO
               </p>
             </div>
-            <h3 className="display-6 fw-bold pt-4">Join our community</h3>
-            <p className=" mb-4">
-              Currently <b>{`${discordMemberCount}`} creators</b>
-              <br></br>
-              {isClient && (
-                <>
-                  <b>{`${seedsSupply}`} Seeds</b> on{" "}
-                </>
-              )}
-              <a href="https://opensea.io/collection/seeds-luciensmith">
-                OpenSea
-              </a>
-            </p>
-
-            <div className="mx-auto mb-4 ">
-              <div className="row row-cols-xs-auto g-3 align-items-center">
-                {isClient && <MintSeedForm />}
-              </div>
-            </div>
-            <p>
-              <a className="last" href="https://docs.stp.world/mint-a-seed">
-                Learn More
-              </a>
-            </p>
+           
+          
           </div>
         </main>
         <footer className="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 container">
@@ -209,8 +142,8 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
           </ul>
         </footer>
       </>
-    </div>
-  );
-};
-
-export default Home;
+    </div> 
+    
+    )
+}
+export default Radio;
