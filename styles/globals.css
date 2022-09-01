@@ -162,8 +162,8 @@ body {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 65px;
-    line-height: 65px;
+    font-size: 65px !important;
+    line-height: 65px !important;
     /* or 100% */
     
     color: #000000;  }

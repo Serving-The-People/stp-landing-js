@@ -181,39 +181,29 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
             </p>
           </div>
         </main>
-        <footer className="d-flex flex-wrap justify-content-between align-items-end py-3 my-4 container">
-          <div className="col-md-4 d-flex align-items-center">
-            <span className=" mb-md-0">© 2022 Serving The People, Inc.</span>
-          </div>
-          <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <footer className="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 container">
+         
+          <ul className="nav col-md-4 justify-content-center list-unstyled d-flex">
             <li className="d-flex ms-3">
               <a
                 href="https://opensea.io/collection/seeds-luciensmith"
                 className="d-flex"
-              >
-                <i className="d-flex bi bi-opensea">
-                  <Image
-                    width={18}
-                    height={18}
-                    src="/opensea.svg"
-                    alt="opensea"
-                  />
-                </i>
+              >Opensea
               </a>
             </li>
             <li className="ms-3">
               <a href="https://www.instagram.com/servingthepeople/">
-                <i className="bi bi-instagram"></i>
+               Instagram
               </a>
             </li>
             <li className="ms-3">
               <a href="https://twitter.com/STPcommunity">
-                <i className="bi bi-twitter"></i>
+                Twitter
               </a>
             </li>
             <li className="ms-3">
               <a href="https://discord.gg/nhqyng5wQ9">
-                <i className="bi bi-discord"></i>
+                Discord
               </a>
             </li>
           </ul>
