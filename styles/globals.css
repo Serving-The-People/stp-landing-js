@@ -149,7 +149,21 @@ body {
 
     }
 
-    a.last{
-      
-      color:rgba(0, 0, 0, 0.75);
-    }
+    a.last {
+      color: rgba(0,0,0,.75);
+      font-size: 14px;
+      font-weight: 500;
+  }
+
+
+  h1{
+
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 65px;
+    /* or 100% */
+    
+    color: #000000;  }

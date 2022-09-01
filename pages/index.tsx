@@ -148,7 +148,7 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
               Serving the People!
             </h1>
             <div className="col-lg-12 mx-auto">
-              <p className="lead mb-5">
+              <p className="lead mb-3">
                 Serving the People is a group of creatives and technologists
                 <br></br>
                 building the future of creativity, collaboration,<br></br>
