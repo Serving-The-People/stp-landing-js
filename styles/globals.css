@@ -167,3 +167,10 @@ body {
     /* or 100% */
     
     color: #000000;  }
+
+
+    footer a{
+      text-decoration:none!important;
+      font-weight:500;
+      font-size:16px;
+        }
