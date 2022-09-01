@@ -111,8 +111,8 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
                   </a>
                 </li>
                 <li>
-                  <Link href="/radio" className="nav-link px-2 ">
-                    Radio
+                  <Link href="/radio">
+                    <span className="nav-link px-2 ">Radio</span>
                   </Link>
                 </li>
                 <li>
