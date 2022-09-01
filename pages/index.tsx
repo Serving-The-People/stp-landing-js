@@ -1,6 +1,7 @@
 import { useEffect, useState, FC } from "react";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import Script from "next/script";
 import { providers, Contract, utils, BigNumber } from "ethers";
 import SeedsABI from "../components/hooks/SeedsABI.json";

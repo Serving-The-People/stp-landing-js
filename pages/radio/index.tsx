@@ -2,6 +2,7 @@ import { useEffect, useState, FC } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import Script from "next/script";
+import Link from "next/link";
 
 
 const Radio = () => {
@@ -69,9 +70,9 @@ const Radio = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://stp.world/radio" className="nav-link px-2 ">
+                  <Link href="/radio" className="nav-link px-2 ">
                     Radio
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a href="https://shop.stp.world/" className="nav-link px-2 ">
