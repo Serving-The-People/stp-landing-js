@@ -110,9 +110,9 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
                   </a>
                 </li>
                 <li>
-                  <Link href="/radio">
-                    <a className="nav-link px-2 ">Radio</a>
-                  </Link>
+                  <a href="https://radio.stp.world/" className="nav-link px-2 ">
+                    Radio
+                  </a>
                 </li>
                 <li>
                   <a href="https://shop.stp.world/" className="nav-link px-2 ">
