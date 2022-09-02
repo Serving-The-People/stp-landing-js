@@ -122,7 +122,7 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
               </ul>
               <div className="text-end">
                 <a
-                  type="button"
+           
                   className="btn me-2 contactButton"
                   href="https://stp.world/contact/"
                 >
@@ -130,7 +130,7 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
                 </a>
 
                 <a
-                  type="button"
+                
                   className="btn btn-secondary px-4"
                   href="https://discord.gg/nhqyng5wQ9"
                 >
