@@ -123,7 +123,7 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
               <div className="text-end">
                 <a
                   type="button"
-                  className="btn me-2"
+                  className="btn me-2 contactButton"
                   href="https://stp.world/contact/"
                 >
                   Contact Team
@@ -131,7 +131,7 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
 
                 <a
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-secondary px-4"
                   href="https://discord.gg/nhqyng5wQ9"
                 >
                   Join Discord

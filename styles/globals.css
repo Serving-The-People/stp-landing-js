@@ -176,6 +176,14 @@ body {
         }
 
 
+.contactButton,.contactButton:hover{
+border:none;
+  border-right: 1px solid;
+  border-radius: 0px;
+  padding: 0px 20px;
+  margin-right: 20px !important;
+  line-height: 15px;
+  font-weight: 700;
+  font-size: 15px;
 
-
-        
+}
