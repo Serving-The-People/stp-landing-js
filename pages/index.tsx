@@ -91,31 +91,31 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
                 <a className="d-flex align-items-center mb-2 mb-lg-0  text-decoration-none me-2">
                 <Image
                   className="bi"
-                  width={48}
-                  height={43}
-                  src="/Screen Shot 2022-09-05 at 1.39.18 PM.png"
+                  width={36}
+                  height={30}
+                  src="/72sun.png"
                   alt="Serving The People - Smiling Sun"
                 />
               </a>
               </Link>
               <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 fw-bold">
                 <li>
-                  <a href="https://docs.stp.world/" className="nav-link px-2 ">
+                  <a href="https://docs.stp.world/" className="nav-link px-3 ">
                     Docs
                   </a>
                 </li>
                 <li>
-                  <a href="https://stp.world/" className="nav-link px-2 ">
+                  <a href="https://stp.world/" className="nav-link px-3 ">
                     Blog
                   </a>
                 </li>
                 <li>
-                  <a href="http://home.stp.world/" className="nav-link px-2 ">
+                  <a href="http://home.stp.world/" className="nav-link px-3 ">
                     Radio
                   </a>
                 </li>
                 <li>
-                  <a href="https://shop.stp.world/" className="nav-link px-2 ">
+                  <a href="https://shop.stp.world/" className="nav-link px-3 ">
                     Shop
                   </a>
                 </li>
@@ -184,26 +184,27 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
         <footer className="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 container">
          
           <ul className="nav col-md-12 justify-content-center list-unstyled d-flex">
-            <li className="d-flex ms-3">
-              <a
-                href="https://opensea.io/collection/seeds-luciensmith"
-                className="d-flex"
-              >Opensea
-              </a>
-            </li>
+          
+           
             <li className="ms-3">
-              <a href="https://www.instagram.com/servingthepeople/">
-               Instagram
+              <a href="https://discord.gg/nhqyng5wQ9">
+                Discord
               </a>
             </li>
             <li className="ms-3">
               <a href="https://twitter.com/STPcommunity">
                 Twitter
               </a>
-            </li>
-            <li className="ms-3">
-              <a href="https://discord.gg/nhqyng5wQ9">
-                Discord
+            </li>  <li className="ms-3">
+              <a href="https://www.instagram.com/servingthepeople/">
+               Instagram
+              </a>
+            </li> 
+            <li className="d-flex ms-3">
+              <a
+                href="https://opensea.io/collection/seeds-luciensmith"
+                className="d-flex"
+              >Opensea
               </a>
             </li>
           </ul>
