@@ -245,13 +245,7 @@ border:none;
 }
 
 .text-end{
-  display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
+  display: none;
 }
-
 }
 
