@@ -112,11 +112,23 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
           <li className="nav-item"><a href="https://radio.stp.world" className="nav-link px-3"  target="_blank" rel="noreferrer">Radio</a></li>
           <li className="nav-item"><a href="https://shop.stp.world/" className="nav-link px-3"  target="_blank" rel="noreferrer">Shop</a></li>
       </ul>
-      <div className="text-end">
-        <button type="button" className="btn me-2 contactButton" href="https://stp.world/contact/">Contact Team</button>
-        
-        <button type="button" className="btn btn-secondary px-4" href="https://discord.gg/nhqyng5wQ9">Join Discord</button>
-      </div>
+     <div className="text-end">
+          <a
+     
+            className="btn me-2 contactButton"
+            href="https://stp.world/contact/"
+          >
+            Contact Team
+          </a>
+
+          <a
+          
+            className="btn btn-secondary px-4"
+            href="https://discord.gg/nhqyng5wQ9"
+          >
+            Join Discord
+          </a>
+        </div>
       </div>
       </nav>
 
