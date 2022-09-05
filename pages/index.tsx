@@ -91,8 +91,8 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
                 <a className="d-flex align-items-center mb-2 mb-lg-0  text-decoration-none me-2">
                 <Image
                   className="bi"
-                  width={36}
-                  height={30}
+                  width={48}
+                  height={43}
                   src="/Screen Shot 2022-09-05 at 1.39.18 PM.png"
                   alt="Serving The People - Smiling Sun"
                 />
@@ -187,21 +187,21 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
           <ul className="nav col-md-12 justify-content-center list-unstyled d-flex">
           
            
-            <li className="ms-4">
+            <li className="ms-5">
               <a href="https://discord.gg/nhqyng5wQ9">
                 Discord
               </a>
             </li>
-            <li className="ms-4">
+            <li className="ms-5">
               <a href="https://twitter.com/STPcommunity">
                 Twitter
               </a>
-            </li>  <li className="ms-4">
+            </li>  <li className="ms-5">
               <a href="https://www.instagram.com/servingthepeople/">
                Instagram
               </a>
             </li> 
-            <li className="d-flex ms-4">
+            <li className="d-flex ms-5">
               <a
                 href="https://opensea.io/collection/seeds-luciensmith"
                 className="d-flex"
