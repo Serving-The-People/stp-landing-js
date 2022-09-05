@@ -100,22 +100,22 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
               </Link>
               <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 fw-bold">
                 <li>
-                  <a href="https://docs.stp.world/" className="nav-link px-2 ">
+                  <a href="https://docs.stp.world/" className="nav-link px-3" target="_blank" >
                     Docs
                   </a>
                 </li>
                 <li>
-                  <a href="https://blog.stp.world/" className="nav-link px-2 ">
+                  <a href="https://blog.stp.world/" className="nav-link px-3" target="_blank" >
                     Blog
                   </a>
                 </li>
                 <li>
-                  <a href="http://radio.stp.world/" className="nav-link px-2 ">
+                  <a href="http://radio.stp.world/" className="nav-link px-3" target="_blank" >
                     Radio
                   </a>
                 </li>
                 <li>
-                  <a href="https://shop.stp.world/" className="nav-link px-2 ">
+                  <a href="https://shop.stp.world/" className="nav-link px-3" target="_blank" >
                     Shop
                   </a>
                 </li>
