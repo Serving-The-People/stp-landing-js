@@ -249,7 +249,10 @@ border:none;
 }
 
 
-
+.navbar-brand{
+  padding: 0px;
+  height: 30px;
+}
 
 
 .navbar {
