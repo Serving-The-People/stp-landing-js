@@ -81,9 +81,9 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
         <link rel="canonical" href="https://stp.world/" />
       </Head>
 
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+      <Script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></Script>
+      <Script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></Script>
+      <Script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></Script>
 
       <>
 
