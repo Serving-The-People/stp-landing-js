@@ -120,18 +120,26 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
 
             <div className="collapse navbar-collapse justify-content-between " id="navbarTogglerDemo02">
               <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li className="nav-item"><a href="https://docs.stp.world/" className="nav-link px-3"  target="_blank" rel="noreferrer">Docs</a></li>
-              <li className="nav-item"><a href="https://blog.stp.world/" className="nav-link px-3"  target="_blank" rel="noreferrer">Blog</a></li>
-              <li className="nav-item"><a href="https://radio.stp.world" className="nav-link px-3"  target="_blank" rel="noreferrer">Radio</a></li>
-              <li className="nav-item"><a href="https://shop.stp.world/" className="nav-link px-3"  target="_blank" rel="noreferrer">Shop</a></li>
+                <li className="nav-item">
+                  <a href="https://docs.stp.world/" className="nav-link px-3 py-0"  target="_blank" rel="noreferrer">Docs</a>
+                </li>
+                <li className="nav-item">
+                  <a href="https://blog.stp.world/" className="nav-link px-3 py-0"  target="_blank" rel="noreferrer">Blog</a>
+                </li>
+                <li className="nav-item">
+                  <a href="https://radio.stp.world" className="nav-link px-3 py-0"  target="_blank" rel="noreferrer">Radio</a>
+                </li>
+                <li className="nav-item">
+                  <a href="https://shop.stp.world/" className="nav-link px-3 py-0"  target="_blank" rel="noreferrer">Shop</a>
+                </li>
               </ul>
               <div className="text-end">
-              <a className="btn me-2 contactButton" href="https://stp.world/contact/">
-              Contact Team
-              </a>
-              <a className="btn btn-secondary px-4" href="https://discord.gg/nhqyng5wQ9">
-              Join Discord
-              </a>
+                <a className="btn me-2 contactButton" href="https://stp.world/contact/">
+                Contact Team
+                </a>
+                <a className="btn btn-secondary px-4" href="https://discord.gg/nhqyng5wQ9">
+                Join Discord
+                </a>
               </div>
             </div>
           </nav>
