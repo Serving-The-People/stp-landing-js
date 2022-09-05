@@ -249,11 +249,6 @@ border:none;
 }
 
 
-.navbar-brand{
-  padding: 0px;
-  height: 30px;
-}
-
 
 .navbar {
     position: fixed;
@@ -263,4 +258,12 @@ border:none;
     padding: 0px 0px 0px 15px;
     }
 }
+
+
+
+.navbar-brand{
+  padding: 0px;
+  height: 30px;
+}
+
 
