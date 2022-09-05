@@ -72,7 +72,7 @@ body {
 
     html{
          background-color:#FCED53;
-        background-image:url('/fadedsun.png');
+        background-image:url('/suntile-single.jpg');
         background-repeat:repeat;
         position:relative;
     }
@@ -187,3 +187,9 @@ border:none;
   font-size: 15px;
 
 }
+
+
+
+.nav-link {
+    font-weight: 500;
+  }
