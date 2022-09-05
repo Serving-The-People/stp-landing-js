@@ -58,7 +58,7 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
           content="The Social Platform of the Future, Today"
         />
         <meta charSet="UTF-8"></meta>
-        <meta name="viewport" content="width=1080"></meta>
+        <meta name="viewport" content="width=990"></meta>
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Serving The People" />
@@ -81,56 +81,15 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
         <link rel="canonical" href="https://stp.world/" />
       </Head>
 
-      <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></Script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
 
       <>
 
 
 
-     <nav className="navbar navbar-expand-lg">
-     <Link href="/">
-        <a className="navbar-brand">
-           <Image
-                    className="bi me-1"
-                    width={30}
-                    height={30}
-                    src="/IMG_5549.png"
-                    alt="Serving The People - Smiling Sun"
-                  />
-        </a>
-      </Link>
-
-
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-      </button>
-
-      <div className="collapse navbar-collapse justify-content-between " id="navbarTogglerDemo02">
-      <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li className="nav-item"><a href="https://docs.stp.world/" className="nav-link px-3"  target="_blank" rel="noreferrer">Docs</a></li>
-          <li className="nav-item"><a href="https://blog.stp.world/" className="nav-link px-3"  target="_blank" rel="noreferrer">Blog</a></li>
-          <li className="nav-item"><a href="https://radio.stp.world" className="nav-link px-3"  target="_blank" rel="noreferrer">Radio</a></li>
-          <li className="nav-item"><a href="https://shop.stp.world/" className="nav-link px-3"  target="_blank" rel="noreferrer">Shop</a></li>
-      </ul>
-     <div className="text-end">
-          <a
-     
-            className="btn me-2 contactButton"
-            href="https://stp.world/contact/"
-          >
-            Contact Team
-          </a>
-
-          <a
-          
-            className="btn btn-secondary px-4"
-            href="https://discord.gg/nhqyng5wQ9"
-          >
-            Join Discord
-          </a>
-        </div>
-      </div>
-      </nav>
+    
 
 
 
@@ -139,58 +98,44 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
 
         <header className="p-3">
           <div className="container">
-            <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+
+
+           <nav className="navbar navbar-expand-lg">
             <Link href="/">
-                <a className="d-flex align-items-center mb-2 mb-lg-0  text-decoration-none me-2">
-                <Image
-                  className="bi"
-                  width={30}
-                  height={30}
-                  src="/IMG_5549.png"
-                  alt="Serving The People - Smiling Sun"
-                />
-              </a>
-              </Link>
-              <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 fw-bold">
-                <li>
-                  <a href="https://docs.stp.world/" className="nav-link px-3" target="_blank" rel="noreferrer">
-                    Docs
-                  </a>
-                </li>
-                <li>
-                  <a href="https://blog.stp.world/" className="nav-link px-3" target="_blank" rel="noreferrer">
-                    Blog
-                  </a>
-                </li>
-                <li>
-                  <a href="http://radio.stp.world/" className="nav-link px-3" target="_blank" rel="noreferrer">
-                    Radio
-                  </a>
-                </li>
-                <li>
-                  <a href="https://shop.stp.world/" className="nav-link px-3" target="_blank" rel="noreferrer">
-                    Shop
-                  </a>
-                </li>
+            <a className="navbar-brand">
+            <Image
+            className="bi me-1"
+            width={30}
+            height={30}
+            src="/IMG_5549.png"
+            alt="Serving The People - Smiling Sun"
+            />
+            </a>
+            </Link>
+
+
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+            </button>
+
+            <div className="collapse navbar-collapse justify-content-between " id="navbarTogglerDemo02">
+              <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li className="nav-item"><a href="https://docs.stp.world/" className="nav-link px-3"  target="_blank" rel="noreferrer">Docs</a></li>
+              <li className="nav-item"><a href="https://blog.stp.world/" className="nav-link px-3"  target="_blank" rel="noreferrer">Blog</a></li>
+              <li className="nav-item"><a href="https://radio.stp.world" className="nav-link px-3"  target="_blank" rel="noreferrer">Radio</a></li>
+              <li className="nav-item"><a href="https://shop.stp.world/" className="nav-link px-3"  target="_blank" rel="noreferrer">Shop</a></li>
               </ul>
               <div className="text-end">
-                <a
-           
-                  className="btn me-2 contactButton"
-                  href="https://stp.world/contact/"
-                >
-                  Contact Team
-                </a>
-
-                <a
-                
-                  className="btn btn-secondary px-4"
-                  href="https://discord.gg/nhqyng5wQ9"
-                >
-                  Join Discord
-                </a>
+              <a className="btn me-2 contactButton" href="https://stp.world/contact/">
+              Contact Team
+              </a>
+              <a className="btn btn-secondary px-4" href="https://discord.gg/nhqyng5wQ9">
+              Join Discord
+              </a>
               </div>
             </div>
+          </nav>
+
           </div>
         </header>
 
