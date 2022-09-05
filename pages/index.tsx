@@ -193,7 +193,7 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
               </a>
             </li>
             <li className="ms-5">
-              <a href="https://twitter.com/STPcommunity">
+              <a href="https://twitter.com/STPtweeeets">
                 Twitter
               </a>
             </li>  <li className="ms-5">
