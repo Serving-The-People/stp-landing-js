@@ -107,10 +107,10 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
 
       <div className="collapse navbar-collapse justify-content-between " id="navbarTogglerDemo02">
       <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li className="nav-item"><a href="https://docs.stp.world/" className="nav-link px-3">Docs</a></li>
-          <li className="nav-item"><a href="https://blog.stp.world/" className="nav-link px-3">Blog</a></li>
-          <li className="nav-item"><a href="https://radio.stp.world" className="nav-link px-3">Radio</a></li>
-          <li className="nav-item"><a href="https://shop.stp.world/" className="nav-link px-3">Shop</a></li>
+          <li className="nav-item"><a href="https://docs.stp.world/" className="nav-link px-3"  target="_blank" rel="noreferrer">Docs</a></li>
+          <li className="nav-item"><a href="https://blog.stp.world/" className="nav-link px-3"  target="_blank" rel="noreferrer">Blog</a></li>
+          <li className="nav-item"><a href="https://radio.stp.world" className="nav-link px-3"  target="_blank" rel="noreferrer">Radio</a></li>
+          <li className="nav-item"><a href="https://shop.stp.world/" className="nav-link px-3"  target="_blank" rel="noreferrer">Shop</a></li>
       </ul>
       <div className="text-end">
         <button type="button" className="btn me-2 contactButton" href="https://stp.world/contact/">Contact Team</button>
@@ -141,22 +141,22 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
               </Link>
               <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 fw-bold">
                 <li>
-                  <a href="https://docs.stp.world/" className="nav-link px-3" target="_blank" >
+                  <a href="https://docs.stp.world/" className="nav-link px-3" target="_blank" rel="noreferrer">
                     Docs
                   </a>
                 </li>
                 <li>
-                  <a href="https://blog.stp.world/" className="nav-link px-3" target="_blank" >
+                  <a href="https://blog.stp.world/" className="nav-link px-3" target="_blank" rel="noreferrer">
                     Blog
                   </a>
                 </li>
                 <li>
-                  <a href="http://radio.stp.world/" className="nav-link px-3" target="_blank" >
+                  <a href="http://radio.stp.world/" className="nav-link px-3" target="_blank" rel="noreferrer">
                     Radio
                   </a>
                 </li>
                 <li>
-                  <a href="https://shop.stp.world/" className="nav-link px-3" target="_blank" >
+                  <a href="https://shop.stp.world/" className="nav-link px-3" target="_blank" rel="noreferrer">
                     Shop
                   </a>
                 </li>
