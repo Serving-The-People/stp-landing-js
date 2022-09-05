@@ -84,6 +84,47 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
       <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></Script>
 
       <>
+
+
+
+     <nav className="navbar navbar-expand-lg">
+     <Link href="/">
+        <a className="navbar-brand">
+           <Image
+                    className="bi me-1"
+                    width={30}
+                    height={30}
+                    src="/IMG_5549.png"
+                    alt="Serving The People - Smiling Sun"
+                  />
+        </a>
+      </Link>
+
+
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+      </button>
+
+      <div className="collapse navbar-collapse justify-content-between " id="navbarTogglerDemo02">
+      <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li className="nav-item"><a href="https://docs.stp.world/" className="nav-link px-3">Docs</a></li>
+          <li className="nav-item"><a href="https://blog.stp.world/" className="nav-link px-3">Blog</a></li>
+          <li className="nav-item"><a href="https://radio.stp.world" className="nav-link px-3">Radio</a></li>
+          <li className="nav-item"><a href="https://shop.stp.world/" className="nav-link px-3">Shop</a></li>
+      </ul>
+      <div className="text-end">
+        <button type="button" className="btn me-2 contactButton" href="https://stp.world/contact/">Contact Team</button>
+        
+        <button type="button" className="btn btn-secondary px-4" href="https://discord.gg/nhqyng5wQ9">Join Discord</button>
+      </div>
+      </div>
+      </nav>
+
+
+
+
+
+
         <header className="p-3">
           <div className="container">
             <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
