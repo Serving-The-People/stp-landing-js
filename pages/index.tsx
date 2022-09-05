@@ -91,7 +91,7 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
                 <a className="d-flex align-items-center mb-2 mb-lg-0  text-decoration-none me-2">
                 <Image
                   className="bi"
-                  width={36}
+                  width={30}
                   height={30}
                   src="/IMG_5549.png"
                   alt="Serving The People - Smiling Sun"
