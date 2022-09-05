@@ -93,7 +93,7 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
                   className="bi"
                   width={36}
                   height={30}
-                  src="/Logo.png"
+                  src="/stplogo.png"
                   alt="Serving The People - Smiling Sun"
                 />
               </a>
