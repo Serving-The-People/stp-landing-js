@@ -93,29 +93,29 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
                   className="bi"
                   width={36}
                   height={30}
-                  src="/72sun.png"
+                  src="/Screen Shot 2022-09-05 at 1.39.18 PM.png"
                   alt="Serving The People - Smiling Sun"
                 />
               </a>
               </Link>
               <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 fw-bold">
                 <li>
-                  <a href="https://docs.stp.world/" className="nav-link px-3 ">
+                  <a href="https://docs.stp.world/" className="nav-link px-2 ">
                     Docs
                   </a>
                 </li>
                 <li>
-                  <a href="https://stp.world/" className="nav-link px-3 ">
+                  <a href="https://stp.world/" className="nav-link px-2 ">
                     Blog
                   </a>
                 </li>
                 <li>
-                  <a href="http://home.stp.world/" className="nav-link px-3 ">
+                  <a href="http://home.stp.world/" className="nav-link px-2 ">
                     Radio
                   </a>
                 </li>
                 <li>
-                  <a href="https://shop.stp.world/" className="nav-link px-3 ">
+                  <a href="https://shop.stp.world/" className="nav-link px-2 ">
                     Shop
                   </a>
                 </li>
@@ -183,24 +183,25 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
         </main>
         <footer className="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 container">
          
+         
           <ul className="nav col-md-12 justify-content-center list-unstyled d-flex">
           
            
-            <li className="ms-3">
+            <li className="ms-4">
               <a href="https://discord.gg/nhqyng5wQ9">
                 Discord
               </a>
             </li>
-            <li className="ms-3">
+            <li className="ms-4">
               <a href="https://twitter.com/STPcommunity">
                 Twitter
               </a>
-            </li>  <li className="ms-3">
+            </li>  <li className="ms-4">
               <a href="https://www.instagram.com/servingthepeople/">
                Instagram
               </a>
             </li> 
-            <li className="d-flex ms-3">
+            <li className="d-flex ms-4">
               <a
                 href="https://opensea.io/collection/seeds-luciensmith"
                 className="d-flex"
