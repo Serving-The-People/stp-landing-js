@@ -274,10 +274,11 @@ border:none;
     padding: 0px 0px 0px 15px;
     }
 
-    .navbar-brand{
-      padding: 0px;
-      height: 40px;
-    }
+    .navbar-brand {
+      padding: 0;
+      height: 60px;
+      width: 60px;
+  }
 
 }
 
