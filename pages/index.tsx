@@ -58,7 +58,7 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
           content="The Social Platform of the Future, Today"
         />
         <meta charSet="UTF-8"></meta>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
 
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
