@@ -137,7 +137,7 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
                 </li>
               </ul>
               <div className="text-end">
-                <a className="btn me-2 contactButton" href="https://stp.world/contact/">
+                <a className="btn me-2 contactButton" href="mailto:info@stp.world">
                 Contact Team
                 </a>
                 <a className="btn btn-secondary px-4" href="https://discord.gg/nhqyng5wQ9">
