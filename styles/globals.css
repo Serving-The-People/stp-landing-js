@@ -229,8 +229,17 @@ border:none;
     }
 
 
+    .logo{
+      width:36px;
+      height:36px;
+    }
+
 @media (max-width: 991px){
 
+  .logo{
+    width:40px;
+    height:40px;
+  }
     li.nav-item {
     background: #FCED53;
     min-width: 180px;
