@@ -104,19 +104,15 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
             <Link href="/">
             <a className="navbar-brand">
             <Image
-            className="bi me-1"
+            className="bi me-1 logo"
             width={40}
             height={40}
             src="/IMG_5549.png"
             alt="Serving The People - Smiling Sun"
+            layout="responsive"
+
             />
-             <Image
-            className="bi me-1 mobileonly"
-            width={80}
-            height={80}
-            src="/IMG_5549.png"
-            alt="Serving The People - Smiling Sun"
-            />
+            
             </a>
             </Link>
 
