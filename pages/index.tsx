@@ -193,21 +193,21 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
           <ul className="nav col-md-12 justify-content-center list-unstyled d-flex">
           
            
-            <li className="ms-5">
+            <li className="mx-4">
               <a href="https://discord.gg/nhqyng5wQ9">
                 Discord
               </a>
             </li>
-            <li className="ms-5">
+            <li className="mx-4">
               <a href="https://twitter.com/STPtweeeets">
                 Twitter
               </a>
-            </li>  <li className="ms-5">
+            </li>  <li className="mx-4">
               <a href="https://www.instagram.com/servingthepeople/">
                Instagram
               </a>
             </li> 
-            <li className="d-flex ms-5">
+            <li className="d-flex mx-4">
               <a
                 href="https://opensea.io/collection/seeds-luciensmith"
                 className="d-flex"
