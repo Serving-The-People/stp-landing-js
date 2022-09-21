@@ -81,72 +81,101 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
         <link rel="canonical" href="https://stp.world/" />
       </Head>
 
-      <Script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></Script>
+      <Script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></Script>
       <Script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></Script>
       <Script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></Script>
 
       <>
-
-
-
-    
-
-
-
-
-
-
         <header className="p-3">
           <div className="container">
-
-
-           <nav className="navbar navbar-expand-lg">
-            <Link href="/">
-            <a className="navbar-brand">
-            <Image
-            className="bi me-1 logo"
-            width={40}
-            height={40}
-            src="/IMG_5549.png"
-            alt="Serving The People - Smiling Sun"
-            layout="responsive"
-
-            />
-            
-            </a>
-            </Link>
-
-
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-            </button>
-
-            <div className="collapse navbar-collapse justify-content-between " id="navbarTogglerDemo02">
-              <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li className="nav-item">
-                  <a href="https://docs.stp.world/" className="nav-link px-3"  target="_blank" rel="noreferrer">Docs</a>
-                </li>
-                <li className="nav-item">
-                  <a href="https://blog.stp.world/" className="nav-link px-3"  target="_blank" rel="noreferrer">Blog</a>
-                </li>
-                <li className="nav-item">
-                  <a href="https://radio.stp.world" className="nav-link px-3"  target="_blank" rel="noreferrer">Radio</a>
-                </li>
-                <li className="nav-item">
-                  <a href="https://shop.stp.world/" className="nav-link px-3"  target="_blank" rel="noreferrer">Shop</a>
-                </li>
-              </ul>
-              <div className="text-end">
-                <a className="btn me-2 contactButton" href="mailto:info@stp.world">
-                Contact Team
+            <nav className="navbar navbar-expand-lg">
+              <Link href="/">
+                <a className="navbar-brand">
+                  <Image
+                    className="bi me-1 logo"
+                    width={40}
+                    height={40}
+                    src="/IMG_5549.png"
+                    alt="Serving The People - Smiling Sun"
+                    layout="responsive"
+                  />
                 </a>
-                <a className="btn btn-secondary px-4" href="https://discord.gg/nhqyng5wQ9">
-                Join Discord
-                </a>
+              </Link>
+
+              <button
+                className="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span className="navbar-toggler-icon"></span>
+              </button>
+
+              <div
+                className="collapse navbar-collapse justify-content-between "
+                id="navbarTogglerDemo02"
+              >
+                <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <li className="nav-item">
+                    <a
+                      href="https://docs.stp.world/"
+                      className="nav-link px-3"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Docs
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      href="https://blog.stp.world/"
+                      className="nav-link px-3"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Blog
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      href="https://radio.stp.world"
+                      className="nav-link px-3"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Radio
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      href="https://shop.stp.world/"
+                      className="nav-link px-3"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Shop
+                    </a>
+                  </li>
+                </ul>
+                <div className="text-end">
+                  <a
+                    className="btn me-2 contactButton"
+                    href="mailto:info@stp.world"
+                  >
+                    Contact Team
+                  </a>
+                  <a
+                    className="btn btn-secondary px-4"
+                    href="https://discord.gg/nhqyng5wQ9"
+                  >
+                    Join Discord
+                  </a>
+                </div>
               </div>
-            </div>
-          </nav>
-
+            </nav>
           </div>
         </header>
 
@@ -166,8 +195,12 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
             </div>
             <h3 className="display-6 fw-bold pt-4">Join our community</h3>
             <p className=" mb-4">
-              Currently <b>{`${discordMemberCount}`} creators</b>
-              <br></br>
+              {discordMemberCount && (
+                <>
+                  Currently <b>{`${discordMemberCount}`} creators</b>
+                  <br></br>
+                </>
+              )}
               {isClient && (
                 <>
                   <b>{`${seedsSupply}`} Seeds</b> on{" "}
@@ -191,30 +224,24 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
           </div>
         </main>
         <footer className="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 container">
-         
-         
           <ul className="nav col-md-12 justify-content-center list-unstyled d-flex">
-          
-           
             <li className="mx-4">
-              <a href="https://discord.gg/nhqyng5wQ9">
-                Discord
-              </a>
+              <a href="https://discord.gg/nhqyng5wQ9">Discord</a>
             </li>
             <li className="mx-4">
-              <a href="https://twitter.com/STPtweeeets">
-                Twitter
-              </a>
-            </li>  <li className="mx-4">
+              <a href="https://twitter.com/STPtweeeets">Twitter</a>
+            </li>{" "}
+            <li className="mx-4">
               <a href="https://www.instagram.com/servingthepeople/">
-               Instagram
+                Instagram
               </a>
-            </li> 
+            </li>
             <li className="d-flex mx-4">
               <a
                 href="https://opensea.io/collection/seeds-luciensmith"
                 className="d-flex"
-              >Opensea
+              >
+                Opensea
               </a>
             </li>
           </ul>
