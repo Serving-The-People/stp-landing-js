@@ -45,7 +45,15 @@ export const MintSeedForm: FC = () => {
         setError("Not enough funds in your wallet");
         return;
       }
-      setError("Could not process transaction");
+      let err: string;
+      if (e instanceof Error) {
+        err = e.message;
+      } else if (typeof e === "string") {
+        err = e;
+      } else {
+        err = "Could not process transaction";
+      }
+      setError(err);
     },
     onSuccess: () => {
       setError(null);
