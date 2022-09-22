@@ -25,6 +25,7 @@ const client = createClient({
     new MetaMaskConnector(),
     new WalletConnectConnector({
       options: {
+        infuraId: process.env.NODE_ALCHEMY_KEY,
         qrcode: true,
         rpc: {
           1: `https://eth-mainnet.alchemyapi.io/v2/${process.env.NODE_ALCHEMY_KEY}`,
