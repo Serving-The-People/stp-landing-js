@@ -1862,6 +1862,16 @@ emoji-regex@^9.2.2:
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-9.2.2.tgz#840c8803b0d8047f4ff0cf963176b32d4ef3ed72"
   integrity sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==
 
+eris@^0.17.1:
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/eris/-/eris-0.17.1.tgz#c2ddc44ae5bc876ea20d251ae7fafcae0fbecd86"
+  integrity sha512-PexpHusPxViuzcsSM0GQEAgZRJbziFfeeLifc8+ZrvS88UusPieQlUD7pRm28E7m7rN+p+Rt6bf9jGLwD725Zg==
+  dependencies:
+    ws "^8.2.3"
+  optionalDependencies:
+    opusscript "^0.0.8"
+    tweetnacl "^1.0.3"
+
 es-abstract@^1.19.0, es-abstract@^1.19.1, es-abstract@^1.19.2, es-abstract@^1.19.5, es-abstract@^1.20.0:
   version "1.20.1"
   resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.20.1.tgz#027292cd6ef44bd12b1913b828116f54787d1814"
@@ -3254,6 +3264,11 @@ optionator@^0.9.1:
     type-check "^0.4.0"
     word-wrap "^1.2.3"
 
+opusscript@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/opusscript/-/opusscript-0.0.8.tgz#00b49e81281b4d99092d013b1812af8654bd0a87"
+  integrity sha512-VSTi1aWFuCkRCVq+tx/BQ5q9fMnQ9pVZ3JU4UHKqTkf0ED3fKEPdr+gKAAl3IA2hj9rrP6iyq3hlcJq3HELtNQ==
+
 os-browserify@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/os-browserify/-/os-browserify-0.3.0.tgz#854373c7f5c2315914fc9bfc6bd8238fdda1ec27"
@@ -4188,7 +4203,7 @@ ws@^7.4.0, ws@^7.4.5:
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.9.tgz#54fa7db29f4c7cec68b1ddd3a89de099942bb591"
   integrity sha512-F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==
 
-ws@^8.5.0, ws@^8.8.1:
+ws@^8.2.3, ws@^8.5.0, ws@^8.8.1:
   version "8.8.1"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.8.1.tgz#5dbad0feb7ade8ecc99b830c1d77c913d4955ff0"
   integrity sha512-bGy2JzvzkPowEJV++hF07hAD6niYSr0JzBNo/J29WsB57A2r7Wlc1UFcTR9IzrPvuNVO4B8LGqF8qcpsVOhJCA==
