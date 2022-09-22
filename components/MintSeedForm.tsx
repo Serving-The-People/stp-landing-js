@@ -51,7 +51,7 @@ export const MintSeedForm: FC = () => {
       } else if (typeof e === "string") {
         err = e;
       } else {
-        err = "Could not process transaction";
+        err = e as string;
       }
       setError(err);
     },
