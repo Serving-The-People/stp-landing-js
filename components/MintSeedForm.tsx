@@ -55,7 +55,7 @@ export const MintSeedForm: FC = () => {
 
   const handleSubmit = useCallback(async () => {
     if (!quantity || quantity <= 0) {
-      alert("You can only mint one or more seeds, obviously.");
+      alert("You can only mint one or more seeds.");
     } else {
       setError(null);
       setMinting(true);
