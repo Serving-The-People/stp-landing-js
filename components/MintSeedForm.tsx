@@ -36,8 +36,6 @@ export const MintSeedForm: FC = () => {
     args: [quantity],
     overrides: { value: utils.parseEther(`${totalPriceEth}`) },
     onError: (e: string | Error) => {
-      console.log(quantity);
-      console.log(e);
       setMinting(false);
       if (
         e === "execution reverted: Not Enough Ether" ||
