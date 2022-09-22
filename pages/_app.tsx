@@ -28,7 +28,7 @@ const client = createClient({
         infuraId: process.env.NODE_ALCHEMY_KEY,
         qrcode: true,
         rpc: {
-          1: `https://eth-mainnet.alchemyapi.io/v2/${process.env.NODE_ALCHEMY_KEY}`,
+          1: `https://eth-mainnet.alchemyapi.io/v2/9ANCgz1Z3X9HqDQLxVtzabn04IYiK1v-`,
         },
       },
     }),
