@@ -1,5 +1,5 @@
 import React, { FC, useState, useCallback, ChangeEvent, useRef } from "react";
-import { constants } from "ethers";
+import { utils } from "ethers";
 import { useAccount, useConnect, useContractWrite } from "wagmi";
 import { shortAddress } from "./helpers/shortAddress";
 import SeedsABI from "./hooks/SeedsABI.json";
@@ -26,7 +26,7 @@ export const MintSeedForm: FC = () => {
   }, []);
 
   const totalPriceEth = Math.max(0, (quantity || 0) * parseFloat(seedPrice));
-  const totalPriceUSD = usdPrice ? totalPriceEth * usdPrice : 0;
+  // const totalPriceUSD = usdPrice ? totalPriceEth * usdPrice : 0;
 
   const { write: mintSeed } = useContractWrite({
     mode: "recklesslyUnprepared",
@@ -34,7 +34,10 @@ export const MintSeedForm: FC = () => {
     contractInterface: SeedsABI,
     functionName: "mint",
     args: [quantity],
+    overrides: { value: utils.parseEther(`${totalPriceEth}`) },
     onError: (e: string | Error) => {
+      console.log(quantity);
+      console.log(e);
       setMinting(false);
       if (
         e === "execution reverted: Not Enough Ether" ||
