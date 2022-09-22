@@ -1,7 +1,10 @@
 import "../styles/globals.css";
 
 import { providers } from "ethers";
-import { WagmiConfig, createClient } from "wagmi";
+import { WagmiConfig, createClient, configureChains, chain } from "wagmi";
+import { alchemyProvider } from "wagmi/providers/alchemy";
+import { publicProvider } from "wagmi/providers/public";
+
 import { InjectedConnector } from "wagmi/connectors/injected";
 import { WalletConnectConnector } from "wagmi/connectors/walletConnect";
 import { CoinbaseWalletConnector } from "wagmi/connectors/coinbaseWallet";
@@ -9,11 +12,18 @@ import { AppProps } from "next/app";
 
 const alchemyKey = process.env.NODE_ALCHEMY_KEY;
 
+const { provider, webSocketProvider } = configureChains(
+  [chain.mainnet],
+  [
+    alchemyProvider({ apiKey: alchemyKey, priority: 0 }),
+    publicProvider({ priority: 1 }),
+  ]
+);
+
 const client = createClient({
   autoConnect: true,
-  provider(config) {
-    return new providers.AlchemyProvider("homestead", alchemyKey);
-  },
+  provider,
+  webSocketProvider,
   connectors: [
     new InjectedConnector({ options: { name: "MetaMask" } }),
     new WalletConnectConnector({
