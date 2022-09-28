@@ -23,6 +23,14 @@
             }
         }
     }
+    @media (max-width: 991px) {
+        display: flex;
+        justify-content: center;
+        flex-flow: wrap;
+        flex-direction: column;
+        align-items: center;
+        gap: 9px;
+    }
 }
 .inputAndButtons {
     display: flex;
@@ -61,20 +69,13 @@
 .mintButtonWrapper {
     display: inline-flex;
     align-items: center;
-    @media (max-width: 568px) {
-        margin-top: 9px;
+    @media (max-width: 768px) {
         display: flex;
     }
 }
 
-@media (max-width: 991px){
-.inputWrapper {
-    display: flex;
-    justify-content: center;
-    flex-flow: wrap;
-    flex-direction: column;
-    align-items: center;
-
-}
-
+.metamask {
+    @media (max-width: 768px) {
+        display: none;
+    }
 }

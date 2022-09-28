@@ -1,5 +1,6 @@
 import React, { FC, useState, useCallback, ChangeEvent, useRef } from "react";
 import { utils } from "ethers";
+import clsx from "clsx";
 import { useAccount, useConnect, useContractWrite } from "wagmi";
 import { shortAddress } from "./helpers/shortAddress";
 import SeedsABI from "./hooks/SeedsABI.json";
@@ -101,7 +102,10 @@ export const MintSeedForm: FC = () => {
             {connectors.map((connector) => (
               <button
                 key={connector.name}
-                className={`btn btn-primary ${styles.connectButton}`}
+                className={clsx(`btn btn-primary ${styles.connectButton}`, {
+                  [styles.metamask]:
+                    connector?.name?.toLowerCase() === "metamask",
+                })}
                 onClick={() => connect({ connector })}
               >
                 {connector.name}
