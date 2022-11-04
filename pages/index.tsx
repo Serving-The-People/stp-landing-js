@@ -217,7 +217,7 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
               </div>
             </div>
             <p>
-              <a className="last" href="https://docs.stp.world/mint-a-seed">
+              <a className="last" href="https://docs.stp.world/seeds">
                 Learn More
               </a>
             </p>
