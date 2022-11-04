@@ -73,7 +73,7 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
         <meta property="og:image:height" content="592" />
         <meta property="og:image:type" content="image/jpeg" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@STPcommunity" />
+        <meta name="twitter:site" content="@stp_xyz" />
         <meta name="msapplication-TileImage" content="/stp-logo.png" />
         <link rel="icon" href="/stp-logo.png" sizes="32x32" />
         <link rel="icon" href="/stp-logo.png" sizes="192x192" />
@@ -229,7 +229,7 @@ const Home: FC<PageProps> = ({ discordMemberCount, seedsSupply }) => {
               <a href="https://discord.gg/nhqyng5wQ9">Discord</a>
             </li>
             <li className="mx-4">
-              <a href="https://twitter.com/STPtweeeets">Twitter</a>
+              <a href="https://twitter.com/stp_xyz">Twitter</a>
             </li>{" "}
             <li className="mx-4">
               <a href="https://www.instagram.com/servingthepeople/">
